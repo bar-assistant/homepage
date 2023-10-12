@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&family=Inter:wght@100;400;700&display=swap');
+@import "https://unpkg.com/open-props";
+@import "./reset.css";
+
+:root {
+    --font-body: 'Inter', sans-serif;
+    --font-mono: 'Azeret Mono', monospace;
+
+    --clr-bg: #FAF5F8;
+    --clr-icon-duotone: #FACE8D;
+    --clr-primary-800: #2a203a;
+    --clr-primary-700: #6F6186;
+
+    --shadow-color: 324deg 10% 72%;
+    --shadow-elevation-low:
+      0px 0.6px 0.6px hsl(var(--shadow-color) / 0.31),
+      0px 0.8px 0.8px -1.6px hsl(var(--shadow-color) / 0.26),
+      0px 1.9px 1.9px -3.3px hsl(var(--shadow-color) / 0.21);
+    --shadow-elevation-medium:
+      0px 0.6px 0.6px hsl(var(--shadow-color) / 0.32),
+      0px 1.4px 1.4px -1.1px hsl(var(--shadow-color) / 0.28),
+      0px 3.7px 3.7px -2.2px hsl(var(--shadow-color) / 0.25),
+      -0.1px 9.4px 9.4px -3.3px hsl(var(--shadow-color) / 0.21);
+    --shadow-elevation-high:
+      0px 0.6px 0.6px hsl(var(--shadow-color) / 0.3),
+      0px 1.8px 1.8px -0.5px hsl(var(--shadow-color) / 0.28),
+      0px 3.4px 3.4px -0.9px hsl(var(--shadow-color) / 0.26),
+      -0.1px 5.9px 5.9px -1.4px hsl(var(--shadow-color) / 0.25),
+      -0.1px 10px 10.1px -1.9px hsl(var(--shadow-color) / 0.23),
+      -0.2px 16.3px 16.4px -2.4px hsl(var(--shadow-color) / 0.21),
+      -0.3px 25.5px 25.6px -2.8px hsl(var(--shadow-color) / 0.19),
+      -0.5px 38.3px 38.5px -3.3px hsl(var(--shadow-color) / 0.17);
+}
+
+body {
+    background-color: #F9EFEC;
+    font-family: var(--font-body);
+    font-size: var(--font-size-1);
+    color: var(--clr-primary-800);
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    gap: var(--size-2);
+    align-items: center;
+}
+
+.logo svg {
+    width: 70px;
+    height: 70px;
+}
+
+.logo__logotype h1 {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
+
+.site {
+    background-color: #FAF5F8;
+    margin-top: var(--size-5);
+    padding: var(--size-7);
+    box-shadow: 0 0 30px #77257221;
+    border-top-left-radius: var(--radius-4);
+    border-top-right-radius: var(--radius-4);
+}
+
+.hero {
+    margin-top: var(--size-10);
+    margin-bottom: var(--size-11);
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: var(--font-size-6);
+}
+
+.hero p {
+    font-size: var(--font-size-3);
+    margin-bottom: var(--size-5);
+}
+
+.hero-actions {
+    display: flex;
+    gap: var(--size-4);
+    justify-content: center;
+}
+
+.hero-image {
+    margin-top: 40px;
+    background: #f1e3e5;
+    box-shadow: inset 0 15px 25px #e3c9cd;
+    border-bottom: 2px solid #fff;
+    margin-bottom: var(--size-10);
+    border-radius: var(--radius-3);
+}
+
+.hero-image__container {
+    margin: 0 var(--size-10);
+    overflow: hidden;
+    transform: translateY(-40px);
+    margin-bottom: -40px;
+    border-top-left-radius: var(--radius-3);
+    border-top-right-radius: var(--radius-3);
+    box-shadow: 0 -10px 25px #e3c9cd79;
+}
+
+.features {
+    display: grid;
+    gap: var(--size-5);
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.feature {
+    background-color: #fff;
+    padding: var(--size-5);
+    box-shadow: var(--shadow-elevation-medium);
+}
+
+.feature__icon {
+    background-color: #FAF5F8;
+    width: 100px;
+    height: 100px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-4);
+}
+
+.feature__icon svg {
+    fill: #2A203A;
+    width: 100%;
+    height: 100%;
+}
+
+.feature__icon svg .accent {
+    fill: #FACE8D;
+}
+
+.feature__text {
+    display: flex;
+    font-size: var(--font-size-fluid-0);
+    flex-direction: column;
+    margin-top: var(--size-2);
+    gap: var(--size-2);
+}
+
+.feature__text h3 {
+    font-size: var(--font-size-fluid-1);
+}
+
+.button {
+    border: 0;
+    margin: 0;
+    text-decoration: none;
+    padding: var(--size-2) var(--size-5);
+    display: inline-block;
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-7);
+    box-shadow: var(--shadow-elevation-medium);
+    border-radius: var(--radius-4);
+    border-top: 2px solid #fff;
+}
+
+.button--filled {
+    border-top: 2px solid #ffedd2;
+    background-color: #FACE8D;
+    color: #674410;
+}
+.button:hover,
+.button:active,
+.button:focus {
+    border-top: 2px solid #e8dfff;
+    background-color: #cdbbff;
+    color: #392c5c;
+}
