@@ -51,6 +51,7 @@ body {
 .logo svg {
     width: 70px;
     height: 70px;
+    flex-shrink: 0;
 }
 
 .logo__logotype h1 {
@@ -68,6 +69,31 @@ body {
     border-top-right-radius: var(--radius-4);
 }
 
+.site-header__navigation {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.site-navigation {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.site-navigation a {
+    display: block;
+    font-size: var(--font-size-3);
+    font-weight: 700;
+    color: #b95e21;
+    padding: var(--size-3);
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.site-navigation a:active {
+    color: #131211;
+}
+
 .hero {
     margin-top: var(--size-10);
     margin-bottom: var(--size-11);
@@ -80,7 +106,8 @@ body {
 
 .hero p {
     font-size: var(--font-size-3);
-    margin-bottom: var(--size-5);
+    margin: var(--size-3) auto var(--size-5) auto;
+    max-width: 700px;
 }
 
 .hero-actions {
@@ -111,7 +138,7 @@ body {
 .features {
     display: grid;
     gap: var(--size-5);
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
 }
 
 .feature {
@@ -164,17 +191,19 @@ body {
     box-shadow: var(--shadow-elevation-medium);
     border-radius: var(--radius-4);
     border-top: 2px solid #fff;
+    transition: all .1s ease-in-out;
+    color: #b95e21;
 }
 
 .button--filled {
     border-top: 2px solid #ffedd2;
     background-color: #FACE8D;
-    color: #674410;
 }
+
 .button:hover,
 .button:active,
 .button:focus {
-    border-top: 2px solid #e8dfff;
-    background-color: #cdbbff;
-    color: #392c5c;
+    border-top: 2px solid #fff8ed;
+    background-color: #ffe7c2;
+    transform: translateY(-3px);
 }
