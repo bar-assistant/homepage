@@ -88,12 +88,13 @@ a:hover, a:focus, a:active {
 .site-navigation {
     margin-left: auto;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
 .site-navigation a {
     display: block;
-    font-size: var(--font-size-3);
+    font-size: var(--font-size-2);
     font-weight: 700;
     padding: var(--size-3);
 }
@@ -117,6 +118,7 @@ a:hover, a:focus, a:active {
 
 .hero-actions {
     display: flex;
+    flex-wrap: wrap;
     gap: var(--size-4);
     justify-content: center;
 }
@@ -146,9 +148,10 @@ a:hover, a:focus, a:active {
 }
 
 .feature__icon {
-    background-color: #FAF5F8;
-    inline-size: var(--size-fluid-5);
-    block-size: var(--size-fluid-5);
+    /* background-color: #FAF5F8; */
+    background-color: #EDEAF7;
+    inline-size: var(--size-10);
+    block-size: var(--size-10);
     padding: 1rem;
     display: flex;
     align-items: center;
@@ -168,14 +171,14 @@ a:hover, a:focus, a:active {
 
 .feature__text {
     display: flex;
-    font-size: var(--font-size-fluid-0);
+    font-size: var(--font-size-1);
     flex-direction: column;
     margin-top: var(--size-2);
     gap: var(--size-2);
 }
 
 .feature__text h3 {
-    font-size: var(--font-size-fluid-1);
+    font-size: var(--font-size-4);
 }
 
 .button {
@@ -191,6 +194,7 @@ a:hover, a:focus, a:active {
     border-top: 2px solid #fff;
     transition: all .1s ease-in-out;
     color: #b95e21;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .3);
 }
 
 .button--filled {
@@ -245,6 +249,19 @@ a:hover, a:focus, a:active {
     color: #fff;
 }
 
+.plans__plan.plans__plan--mixologist .button.button--filled {
+    box-shadow: 3px 3px 15px #ff7139;
+}
+
+.plans__plan.plans__plan--mixologist .button.button--filled:hover,
+.plans__plan.plans__plan--mixologist .button.button--filled:active,
+.plans__plan.plans__plan--mixologist .button.button--filled:focus {
+    color: var(--clr-primary-800);
+    border-top: 2px solid #fff;
+    background-color: rgb(253, 241, 241);
+    transform: translateY(-3px);
+}
+
 .plans__plan.plans__plan--bartender {
     border: 4px solid var(--clr-primary-800);
 }
@@ -277,11 +294,41 @@ a:hover, a:focus, a:active {
 }
 
 @media (max-width: 768px) {
+    .site {
+        padding: var(--size-4);
+        border-top-left-radius: var(--radius-3);
+        border-top-right-radius: var(--radius-3);
+    }
+
+    .site-navigation {
+        margin: 0 auto;
+    }
+
+    .site-navigation a {
+        font-size: var(--font-size-1);
+        padding: var(--size-2);
+    }
+
     .plans {
         grid-template-columns: 1fr;
     }
 
     .plans__plan.plans__plan--hosting {
         grid-column: span 1;
+    }
+
+    .hero-image {
+        margin-left: calc(var(--size-3) * -1 * 2);
+        margin-right: calc(var(--size-3) * -1 * 2);
+    }
+
+    .hero-image img {
+        border-radius: var(--radius-2);
+    }
+}
+
+@media (max-width: 400px) {
+    .features {
+        grid-template-columns: 1fr;
     }
 }
