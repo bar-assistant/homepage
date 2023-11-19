@@ -193,13 +193,15 @@ a:hover, a:focus, a:active {
     border-radius: var(--radius-4);
     border-top: 2px solid #fff;
     transition: all .1s ease-in-out;
-    color: #b95e21;
+    background-color: #FAF5F8;
+    color: var(--clr-primary-700);
     text-shadow: 0 1px 0 rgba(255, 255, 255, .3);
 }
 
 .button--filled {
     border-top: 2px solid #ffedd2;
     background-color: #FACE8D;
+    color: #b95e21;
 }
 
 .button:hover,
@@ -272,6 +274,7 @@ a:hover, a:focus, a:active {
 
 .plans__plan h2 {
     text-align: center;
+    font-size: var(--font-size-5);
 }
 
 .plans__plan__price h4 {
