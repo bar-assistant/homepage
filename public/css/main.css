@@ -135,6 +135,7 @@ a.site-navigation__sign-in svg {
     color: transparent;
     background: linear-gradient(to right, #bf4697, var(--orange-7));
     background-clip: text;
+    -webkit-background-clip: text;
 }
 
 /* .hero h2 span {
