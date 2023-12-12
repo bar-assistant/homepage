@@ -32,6 +32,11 @@
       -0.5px 38.3px 38.5px -3.3px hsl(var(--shadow-color) / 0.17);
 }
 
+::selection {
+    color: #fff;
+    background-color: var(--pink-8);
+}
+
 body {
     background-color: #F9EFEC;
     font-family: var(--font-body);
@@ -43,11 +48,12 @@ body {
 }
 
 a {
-    color: #b95e21;
+    color: var(--orange-8);
 }
 
 a:hover, a:focus, a:active {
-    color: var(--clr-primary-800);
+    color: var(--orange-11);
+    background-color: var(--orange-1);
 }
 
 .logo {
@@ -130,17 +136,13 @@ a.site-navigation__sign-in svg {
 }
 
 .hero h2 {
-    font-size: var(--font-size-fluid-2);
+    font-size: var(--font-size-6);
     line-height: var(--font-lineheight-1);
     color: transparent;
     background: linear-gradient(to right, #bf4697, var(--orange-7));
     background-clip: text;
     -webkit-background-clip: text;
 }
-
-/* .hero h2 span {
-    
-} */
 
 .hero p {
     font-size: var(--font-size-fluid-1);
@@ -181,7 +183,7 @@ a.site-navigation__sign-in svg {
 
 .feature__icon {
     /* background-color: #FAF5F8; */
-    background-color: #EDEAF7;
+    background-color: var(--violet-0);
     inline-size: var(--size-10);
     block-size: var(--size-10);
     padding: 1rem;
@@ -198,7 +200,7 @@ a.site-navigation__sign-in svg {
 }
 
 .feature__icon svg .accent {
-    fill: #FACE8D;
+    fill: var(--orange-2);
 }
 
 .feature__text {
@@ -415,6 +417,14 @@ a.site-navigation__sign-in svg {
 @media (max-width: 400px) {
     .features {
         grid-template-columns: 1fr;
+    }
+
+    .hero {
+        margin: var(--size-9) 0;
+    }
+
+    .hero h2 {
+        font-size: var(--font-size-5);
     }
 }
 
