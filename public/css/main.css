@@ -349,7 +349,7 @@ a.site-navigation__sign-in svg {
 }
 
 .plans__plan ul li > span {
-    background-color: #ca00a1;
+    background: #bf4697 linear-gradient(30deg, #bf4697, var(--orange-7));;
     text-shadow: 0 1px 0 rgba(0, 0, 0, .5);
     border-radius: 2px;
     padding: 1px 3px;
