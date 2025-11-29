@@ -37,11 +37,6 @@
     background-color: var(--pink-8);
 }
 
-swiper-container {
-    --swiper-theme-color: var(--pink-8);
-    --swiper-pagination-bullet-inactive-color: var(--pink-5);
-}
-
 body {
     background-color: #F9EFEC;
     font-family: var(--font-body);
