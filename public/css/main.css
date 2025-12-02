@@ -204,10 +204,6 @@ a.site-navigation__sign-in svg {
     flex-shrink: 0;
     flex-grow: 0;
     max-width: 400px;
-
-    & img {
-        box-shadow: 3px 3px 10px var(--purple-1);
-    }
 }
 
 .feature__icon {
@@ -433,12 +429,7 @@ a.site-navigation__sign-in svg {
         grid-column: span 1;
     }
 
-    .hero-image {
-        margin-left: calc(var(--size-3) * -1 * 2);
-        margin-right: calc(var(--size-3) * -1 * 2);
-    }
-
-    .hero-image img {
+    .hero-image__wrapper {
         border-radius: var(--radius-2);
     }
 
