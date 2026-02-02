@@ -1,0 +1,144 @@
+{
+  "en": [
+    {
+      "name": "Mixologist",
+      "price": "25<span>€</span>",
+      "billing": "Per month, billed monthly",
+      "description": "For enthusiasts who want to create a community around their bar. Enables multi-user, multi-bar management.",
+      "features": [
+        "Create and manage up to 10 bars",
+        "Add unlimited cocktail recipes",
+        "Invite users to your bar",
+        "Share your recipes with bar members",
+        "Manage user roles",
+        "Enable sharing recipes via public links",
+        "Add more images to recipes",
+        "Enable image editing",
+        "Add unlimited cocktail collections",
+        "No rate limits for import actions",
+        "Create personal access API tokens",
+        "Automatic cocktail price menu suggestions",
+        "Bulk ingredient import",
+        "Unlimited price categories",
+        "Save <span>15%</span> when paying annually"
+      ],
+      "ctaText": "Sign up",
+      "ctaLink": "https://my.barassistant.app/register",
+      "ctaClass": "button--filled",
+      "cssClass": "plans__plan--mixologist"
+    },
+    {
+      "name": "Bartender",
+      "price": "Free",
+      "billing": "This one is on the house",
+      "description": "For at-home bartenders who just want to impress their guests. Single user, single bar.",
+      "features": [
+        "No credit card required",
+        "Manage a single basic bar",
+        "Add up to 750 cocktail recipes",
+        "Search and filter recipes and ingredients",
+        "Manage up to 3 personal cocktail collections",
+        "Manage tags, categories, glasses and more",
+        "Continuous backups and upgrades",
+        "Upgrade to \"Mixologist\" at any time"
+      ],
+      "ctaText": "Sign up",
+      "ctaLink": "https://my.barassistant.app/register",
+      "ctaClass": "",
+      "cssClass": "plans__plan--bartender"
+    },
+    {
+      "name": "Self host",
+      "description": "For server administrators and self-hosting enthusiasts who want full control over their data and infrastructure.",
+      "features": [
+        "Your hardware",
+        "Your deployments",
+        "Your data",
+        "Free forever",
+        "MIT License"
+      ],
+      "links": [
+        {
+          "text": "Self hosted setup",
+          "url": "https://docs.barassistant.app/setup/"
+        },
+        {
+          "text": "Donate via PayPal",
+          "url": "https://www.paypal.com/ncp/payment/9L8T4YJZBRXAS"
+        }
+      ],
+      "cssClass": "plans__plan--hosting"
+    }
+  ],
+  "hr": [
+    {
+      "name": "Mixologist",
+      "price": "25<span>€</span>",
+      "billing": "Naplaćuje se mjesečno",
+      "description": "Za entuzijaste koji žele stvoriti zajednicu oko svog bara. Omogućava upravljanje više korisnika i više barova. Ovaj plan uključuje sve što je dostupno u Bartender planu i slijedeće:",
+      "features": [
+        "Stvorite i upravljajte s do 10 barova",
+        "Dodajte neograničeno recepata za koktele",
+        "Dodajte korisnike u svoj bar",
+        "Podijelite svoje recepte s članovima bara",
+        "Upravljajte korisničkim ulogama",
+        "Omogućite dijeljenje recepata putem javnih veza",
+        "Dodajte više slika receptima",
+        "Omogućite uređivanje slika",
+        "Dodajte neograničene kolekcije koktela",
+        "Bez ograničenja brzine za uvoz podataka",
+        "Stvorite osobne API tokene za pristup",
+        "Automatski prijedlozi cijena koktela na meniju",
+        "Masovni uvoz sastojaka",
+        "Neograničene kategorije cijena",
+        "Uštedite <span>15%</span> pri godišnjem plaćanju"
+      ],
+      "ctaText": "Registrirajte se",
+      "ctaLink": "https://my.barassistant.app/register",
+      "ctaClass": "button--filled",
+      "cssClass": "plans__plan--mixologist"
+    },
+    {
+      "name": "Bartender",
+      "price": "Besplatno",
+      "billing": "Na račun kuće",
+      "description": "Za kućne bariste koji samo žele impresionirati svoje goste. Jedan korisnik, jedan bar. Ovaj plan uključuje slijedeće:",
+      "features": [
+        "Nije potrebna kreditna kartica",
+        "Upravljajte jednim osnovnim barom",
+        "Dodajte do 750 recepata za koktele",
+        "Pretražujte i filtrirajte recepte i sastojke",
+        "Upravljajte sa do 3 osobne kolekcije koktela",
+        "Upravljajte oznakama, kategorijama, čašama i više",
+        "Kontinuirane sigurnosne kopije i nadogradnje",
+        "Promjenite plan u \"Mixologist\" u bilo kojem trenutku"
+      ],
+      "ctaText": "Registrirajte se",
+      "ctaLink": "https://my.barassistant.app/register",
+      "ctaClass": "",
+      "cssClass": "plans__plan--bartender"
+    },
+    {
+      "name": "Vlastiti hosting",
+      "description": "Za poznavatelje tehnologija i entuzijaste samostalnog hostinga koji žele potpunu kontrolu nad svojim podacima i infrastrukturom.",
+      "features": [
+        "Vaš hardver",
+        "Vaše implementacije",
+        "Vaši podaci",
+        "Besplatno zauvijek",
+        "MIT Licenca"
+      ],
+      "links": [
+        {
+          "text": "Samostalna instalacija",
+          "url": "https://docs.barassistant.app/setup/"
+        },
+        {
+          "text": "Donirajte putem PayPal-a",
+          "url": "https://www.paypal.com/ncp/payment/9L8T4YJZBRXAS"
+        }
+      ],
+      "cssClass": "plans__plan--hosting"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ lang or 'en' }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/public/css/main.css">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <meta property="og:title" content="Bar Assistant">
+    <meta property="og:url" content="https://barassistant.app">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:image" content="{{ ogImage or '/public/img/ogimage.png' }}">
+    {% for link in page.url | locale_links %}
+    <link rel="alternate" hreflang="{{ link.lang }}" href="https://barassistant.app{{ link.url }}">
+    {% endfor %}
+    {% if analytics %}
+    <script defer data-domain="barassistant.app" src="https://plausible.io/js/script.js"></script>
+    {% endif %}
+</head>
+
+<body>
+    {% include "components/background.njk" %}
+    <div class="site">
+        {% include "components/header.njk" %}
+        <div class="site-content">
+            {{ content | safe }}
+        </div>
+        {% include "components/footer.njk" %}
+    </div>
+</body>
+</html>

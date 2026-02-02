@@ -1,0 +1,56 @@
+{
+  "site": {
+    "title": "Bar Assistant",
+    "description": "Sve na jednom mjestu za upravljanje vašim koktela barom"
+  },
+  "nav": {
+    "source": "Izvorni kod",
+    "documentation": "Dokumentacija",
+    "open_app": "Idi na aplikaciju",
+    "home": "Početna"
+  },
+  "hero": {
+    "title": "Sve na jednom mjestu za upravljanje",
+    "title_highlight": "vašim koktela barom",
+    "description": "Oduševi goste na partiju i probudi barmena u sebi! Bar Assistant je novi dom za sve tvoje omiljene koktele i pića.",
+    "cta_signup": "Registrirajte se",
+    "cta_demo": "Pogledajte demo"
+  },
+  "sections": {
+    "main_features": "Izradite Savršeni Koktel",
+    "main_features_subtitle": "Moćni alati za ljubitelje koktela",
+    "more_features": "Iznad Osnova",
+    "more_features_subtitle": "Sve što trebate za vođenje bara kao profesionalac",
+    "choose_plan": "Odaberite plan",
+    "choose_plan_subtitle": "Promiješali smo savršen plan za vas",
+    "faq": "Pitanja? Imamo Odgovore",
+    "faq_subtitle": "Sve što trebate znati o Bar Assistantu"
+  },
+  "footer": {
+    "made_by": "Izradio",
+    "contact": "Kontaktirajte nas",
+    "privacy": "Politika privatnosti",
+    "terms": "Uvjeti korištenja"
+  },
+  "privacy": {
+    "title": "Politika privatnosti",
+    "personal_info": "Osobni podaci",
+    "non_personal": "Neosobni podaci",
+    "purchases": "Kupnje",
+    "third_party": "Web stranice treće strane"
+  },
+  "terms": {
+    "title": "Uvjeti korištenja",
+    "general_use": "Opća uporaba",
+    "subscriptions": "Pretplate",
+    "refund": "Politika povrata novca",
+    "privacy_section": "Privatnost"
+  },
+  "language_switcher": {
+    "label": "Jezik",
+    "languages": {
+      "en": "Engleski",
+      "hr": "Hrvatski"
+    }
+  }
+}

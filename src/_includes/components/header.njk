@@ -1,0 +1,33 @@
+<div class="site-header">
+    <div class="container-500">
+        <div class="site-header__navigation">
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 50 50">
+                    <rect width="50" height="50" class="fills" rx="0" ry="0" style="fill:#2a203a;fill-opacity:1" />
+                    <path d="M41.1 22.356H29.6L9.6 36.4H5.1V4.8h4.5l20 14.044h11.5v-8.777h4.5v21.066h-4.5v-8.777Zm-27 6.162V12.682l-4.5-3.16v22.156l4.5-3.16Z" class="fills" style="fill:#fff" />
+                    <rect width="20.7" height="4.7" x="4.3" y="41.9" class="fills" rx="0" ry="0" style="fill:#fff;fill-opacity:1" />
+                </svg>
+                <div class="logo__logotype">
+                    <h1><span>Bar</span><span>Assistant</span></h1>
+                </div>
+            </div>
+            <div class="site-navigation">
+                {% if showFullNav %}
+                <a href="https://github.com/karlomikus/bar-assistant">{{ i18n[lang].nav.source }}</a>
+                <a href="https://docs.barassistant.app">{{ i18n[lang].nav.documentation }}</a>
+                <a href="https://my.barassistant.app" class="site-navigation__sign-in">
+                    {{ i18n[lang].nav.open_app }}
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                        <rect width="256" height="256" fill="none" />
+                        <polygon points="144 56 216 128 144 200 144 56" opacity="0.2" />
+                        <line x1="40" y1="128" x2="144" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" />
+                        <polygon points="144 56 216 128 144 200 144 56" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" />
+                    </svg>
+                </a>
+                {% else %}
+                <a href="{{ "/" | locale_url }}">{{ i18n[lang].nav.home }}</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
