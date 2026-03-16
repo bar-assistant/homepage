@@ -1,0 +1,54 @@
+{
+  "en": [
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "Our payments are processed by <a href=\"https://www.paddle.com/\">Paddle</a>. They support all major cards, PayPal, Google Pay and others. For invoice payments contact us via email."
+    },
+    {
+      "question": "Can I use Bar Assistant for free?",
+      "answer": "Some features that are only available to customers with the \"Mixologist\" plan, but most of the features of the Bar Assistant that you need for a personal use are free."
+    },
+    {
+      "question": "Do you offer a trial for a \"Mixologist\" plan?",
+      "answer": "Currently, we do not offer a trial for the \"Mixologist\" plan. If you have any questions about specific features please send us an email."
+    },
+    {
+      "question": "How do I cancel my subscription?",
+      "answer": "When you sign in to your account, go to your profile and under the \"Billing\" tab you will have the option to manage your plan. Once you cancel your plan, you will have access to your current plan until the end of your billing period."
+    },
+    {
+      "question": "What happens if I cancel my plan?",
+      "answer": "You will be downgraded to a free account. You will have an option to keep one bar activated, while the rest will be deactivated. All data for deactivated bars will be retained for one year. If you reactivate the \"Mixologist\" plan you can continue where you left off."
+    },
+    {
+      "question": "What advantages do I get compared to other recipe apps?",
+      "answer": "Bar Assistant is built from the ground up with cocktail recipes in mind. It offers powerful features aimed specifically at bartenders and cocktail enthusiasts. This includes ingredients as a first-class citizen, bar management, shelf management, cocktail pricing and more."
+    }
+  ],
+  "hr": [
+    {
+      "question": "Koje načine plaćanja prihvaćate?",
+      "answer": "Naše plaćanje obrađuje <a href=\"https://www.paddle.com/\">Paddle</a>. Podržavaju sve popularne kartice, PayPal, Google Pay i ostale načine elektronskog plaćanja. Za plaćanje putem računa kontaktirajte nas email-om."
+    },
+    {
+      "question": "Mogu li koristiti Bar Assistant besplatno?",
+      "answer": "Neke značajke dostupne su samo korisnicima s \"Mixologist\" planom, ali većina značajki Bar Assistanta koje su vam potrebne za osobnu uporabu su besplatne."
+    },
+    {
+      "question": "Nudite li probno razdoblje za \"Mixologist\" plan?",
+      "answer": "Trenutno ne nudimo probno razdoblje za \"Mixologist\" plan. Ako imate bilo kakva pitanja o određenim značajkama, pošaljite nam e-mail."
+    },
+    {
+      "question": "Kako mogu otkazati pretplatu?",
+      "answer": "Kada se prijavite na svoj račun, idite na svoj profil i pod karticom \"Naplata\" imat ćete mogućnost upravljanja svojim planom. Nakon što otkažete svoj plan, imat ćete pristup trenutnom planu do kraja vašeg razdoblja naplate."
+    },
+    {
+      "question": "Što se događa ako otkažem svoj plan?",
+      "answer": "Bit ćete vraćeni na besplatni račun. Imat ćete mogućnost držati jedan bar aktivnim, dok će ostali biti deaktivirani. Svi podaci za deaktivirane barove bit će zadržani godinu dana. Ako ponovno aktivirate \"Mixologist\" plan, možete nastaviti gdje ste stali."
+    },
+    {
+      "question": "Koje prednosti imam u usporedbi s drugim aplikacijama za recepte?",
+      "answer": "Bar Assistant je izgrađen od temelja s receptima za koktele na umu. Nudi moćne značajke usmjerene posebno na bariste i ljubitelje koktela. To uključuje sastojke kao prvoklasne građane, upravljanje barom, upravljanje policom, cijene koktela i više."
+    }
+  ]
+}

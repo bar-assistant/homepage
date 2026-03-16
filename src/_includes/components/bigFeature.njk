@@ -1,0 +1,21 @@
+{% for feature in mainFeatures[lang] %}
+<div class="feature feature--highlighted">
+    <div class="feature__content">
+        <div class="feature__icon">
+            {{ feature.icon | safe }}
+        </div>
+        <div class="feature__text">
+            <h3>{{ feature.title }}</h3>
+            <p>{{ feature.description }}</p>
+            <ul>
+                {% for bullet in feature.bullets %}
+                <li>{{ bullet }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="feature__image">
+        <img src="{{ feature.image }}" alt="">
+    </div>
+</div>
+{% endfor %}

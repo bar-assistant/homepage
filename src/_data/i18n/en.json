@@ -1,0 +1,56 @@
+{
+  "site": {
+    "title": "Bar Assistant",
+    "description": "All-in-one solution for managing your cocktail bar"
+  },
+  "nav": {
+    "source": "Source",
+    "documentation": "Documentation",
+    "open_app": "Open app",
+    "home": "Home"
+  },
+  "hero": {
+    "title": "All-in-one solution for managing",
+    "title_highlight": "your cocktail bar",
+    "description": "Impress your dinner guests and unleash your inner bartender! Bar Assistant is a new home for all your favorite cocktail recipes and drinks.",
+    "cta_signup": "Sign up",
+    "cta_demo": "View demo"
+  },
+  "sections": {
+    "main_features": "Craft Your Perfect Drink",
+    "main_features_subtitle": "Powerful tools for cocktail enthusiasts",
+    "more_features": "Beyond the Basics",
+    "more_features_subtitle": "Everything you need to run your bar like a pro",
+    "choose_plan": "Choose a plan",
+    "choose_plan_subtitle": "We mixed a perfect plan for your needs",
+    "faq": "Questions? We've Got Answers",
+    "faq_subtitle": "Everything you need to know about Bar Assistant"
+  },
+  "footer": {
+    "made_by": "Made by",
+    "contact": "Contact us",
+    "privacy": "Privacy policy",
+    "terms": "Terms of service"
+  },
+  "privacy": {
+    "title": "Privacy policy",
+    "personal_info": "Personal information",
+    "non_personal": "Non-personal information",
+    "purchases": "Purchases",
+    "third_party": "Third-party websites"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "general_use": "General use",
+    "subscriptions": "Subscriptions",
+    "refund": "Refund policy",
+    "privacy_section": "Privacy"
+  },
+  "language_switcher": {
+    "label": "Language",
+    "languages": {
+      "en": "English",
+      "hr": "Croatian"
+    }
+  }
+}

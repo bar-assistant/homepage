@@ -1,0 +1,11 @@
+{% for feature in extraFeatures[lang] %}
+<div class="feature">
+    <div class="feature__icon">
+        {{ feature.icon | safe }}
+    </div>
+    <div class="feature__text">
+        <h3>{{ feature.title }}</h3>
+        <p>{{ feature.description }}</p>
+    </div>
+</div>
+{% endfor %}

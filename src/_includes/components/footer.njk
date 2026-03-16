@@ -1,0 +1,6 @@
+<div class="site-footer">
+    {% include "components/language-switcher.njk" %}
+    <div class="site-footer__links">
+        {{ i18n[lang].footer.made_by }} <a href="https://karlomikus.com">KaMi</a> · <a href="mailto:info@barassistant.app">{{ i18n[lang].footer.contact }}</a> · <a href="{{ "/privacy/" | locale_url }}">{{ i18n[lang].footer.privacy }}</a> · <a href="{{ "/terms/" | locale_url }}">{{ i18n[lang].footer.terms }}</a>
+    </div>
+</div>
