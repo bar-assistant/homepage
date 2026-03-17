@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Bar Assistant",
-    "description": "Sve na jednom mjestu za upravljanje vašim koktela barom"
+    "description": "Sveobuhvatno rješenje za upravljanje vašim koktel barom"
   },
   "nav": {
     "source": "Izvorni kod",
@@ -10,7 +10,7 @@
     "home": "Početna"
   },
   "hero": {
-    "title": "Sve na jednom mjestu za upravljanje",
+    "title": "Sveobuhvatno rješenje za upravljanje",
     "title_highlight": "vašim koktela barom",
     "description": "Oduševi goste na partiju i probudi barmena u sebi! Bar Assistant je novi dom za sve tvoje omiljene koktele i pića.",
     "cta_signup": "Registrirajte se",
