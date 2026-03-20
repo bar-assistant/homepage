@@ -1,8 +1,6 @@
 <div class="language-switcher">
     <span class="language-switcher__label">{{ i18n[lang].language_switcher.label }}:</span>
-    {% for link in page.url | locale_links %}
-        {% if link.lang != lang %}
-        <a href="{{ link.url }}" lang="{{ link.lang }}" class="language-switcher__link{% if loop.index == 1 %} language-switcher__link--first{% endif %}">{{ link.label }}</a>
-        {% endif %}
-    {% endfor %}
+    <a href="/" lang="en">English</a>
+    &middot;
+    <a href="/hr" lang="hr">Hrvatski</a>
 </div>
