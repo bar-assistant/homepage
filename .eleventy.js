@@ -10,8 +10,11 @@ module.exports = function(eleventyConfig) {
   // Passthrough copy for static assets
   eleventyConfig.addPassthroughCopy("public/css");
   eleventyConfig.addPassthroughCopy("public/img");
-  eleventyConfig.addPassthroughCopy("public/*.json");
-  eleventyConfig.addPassthroughCopy({ "public/img/favicon.png": "favicon.png" });
+  eleventyConfig.addPassthroughCopy({
+    "public/img/favicon.png": "favicon.png",
+    "public/cocktail-01.schema.json": "cocktail-01.schema.json",
+    "public/cocktail-02.schema.json": "cocktail-02.schema.json",
+  });
 
   return {
     dir: {
