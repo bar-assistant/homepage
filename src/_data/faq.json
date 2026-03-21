@@ -21,6 +21,10 @@
       "answer": "You will be downgraded to a free account. You will have an option to keep one bar activated, while the rest will be deactivated. All data for deactivated bars will be retained for one year. If you reactivate the \"Mixologist\" plan you can continue where you left off."
     },
     {
+      "question": "What languages do you support?",
+      "answer": "Thanks to our contributors we currently have support for following languages: English, German, Czech, Finnish, French, Croatian, Italian, Polish, Chinese, and Swedish"
+    },
+    {
       "question": "What advantages do I get compared to other recipe apps?",
       "answer": "Bar Assistant is built from the ground up with cocktail recipes in mind. It offers powerful features aimed specifically at bartenders and cocktail enthusiasts. This includes ingredients as a first-class citizen, bar management, shelf management, cocktail pricing and more."
     }
@@ -40,15 +44,19 @@
     },
     {
       "question": "Kako mogu otkazati pretplatu?",
-      "answer": "Kada se prijavite na svoj račun, idite na svoj profil i pod karticom \"Naplata\" imat ćete mogućnost upravljanja svojim planom. Nakon što otkažete svoj plan, imat ćete pristup trenutnom planu do kraja vašeg razdoblja naplate."
+      "answer": "Kada se prijavite u svoj račun, idite na svoj profil i pod kategorijom \"Naplata\" imat ćete mogućnost upravljanja svojim planom. Nakon što otkažete svoj plan, imat ćete pristup trenutnom planu do kraja vašeg razdoblja naplate."
     },
     {
       "question": "Što se događa ako otkažem svoj plan?",
-      "answer": "Bit ćete vraćeni na besplatni račun. Imat ćete mogućnost držati jedan bar aktivnim, dok će ostali biti deaktivirani. Svi podaci za deaktivirane barove bit će zadržani godinu dana. Ako ponovno aktivirate \"Mixologist\" plan, možete nastaviti gdje ste stali."
+      "answer": "Bit ćete vraćeni na besplatni \"Bartender\" račun. Imat ćete mogućnost držati jedan bar aktivnim, dok će ostali biti deaktivirani. Svi podaci za deaktivirane barove bit će zadržani godinu dana. Ako ponovno aktivirate \"Mixologist\" plan, možete nastaviti gdje ste stali."
+    },
+    {
+      "question": "Koje jezike podržavate?",
+      "answer": "Zahvaljujući našim suradnicima trenutno imamo podršku za sljedeće jezike: engleski, njemački, češki, finski, francuski, hrvatski, talijanski, poljski, kineski i švedski."
     },
     {
       "question": "Koje prednosti imam u usporedbi s drugim aplikacijama za recepte?",
-      "answer": "Bar Assistant je izgrađen od temelja s receptima za koktele na umu. Nudi moćne značajke usmjerene posebno na bariste i ljubitelje koktela. To uključuje sastojke kao prvoklasne građane, upravljanje barom, upravljanje policom, cijene koktela i više."
+      "answer": "Bar Assistant je izgrađen od temelja s receptima za koktele na umu. Nudi moćne značajke usmjerene posebno na bariste i ljubitelje koktela. To uključuje upravljanje sastojcima, upravljanje barovima, upravljanje inventarom, cijenama koktela i više."
     }
   ]
 }
