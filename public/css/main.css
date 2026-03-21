@@ -211,8 +211,6 @@ a.site-navigation__sign-in svg {
 }
 
 .feature__icon {
-    inline-size: var(--size-10);
-    block-size: var(--size-10);
     width: 50px;
     display: flex;
     align-items: center;
