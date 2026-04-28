@@ -14,6 +14,7 @@ module.exports = function(eleventyConfig) {
     "public/img/favicon.png": "favicon.png",
     "public/cocktail-01.schema.json": "cocktail-01.schema.json",
     "public/cocktail-02.schema.json": "cocktail-02.schema.json",
+    "public/cocktail-04.schema.json": "cocktail-04.schema.json",
   });
 
   return {
