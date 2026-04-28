@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 title: All-in-one solution for managing your cocktail bar · Bar Assistant
-description: Impress your dinner guests and unleash your inner bartender! Bar Assistant is a new home for all your favorite cocktail recipes and drinks.
+description: Track your bar inventory, organize cocktail recipes, and create custom menus. Free for home use. Used by 900+ aspiring bartenders.
 showFullNav: true
 analytics: true
 lang: en
@@ -70,11 +70,13 @@ lang: en
         <p>{{ i18n[lang].sections.faq_subtitle }}</p>
     </div>
 </div>
-<div class="page-faq">
+<div class="page-faq" itemscope itemtype="https://schema.org/FAQPage">
     {% for item in faq[lang] %}
-    <div class="faq__question">
-        <h5>{{ item.question }}</h5>
-        <p>{{ item.answer | safe }}</p>
+    <div class="faq__question" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <h5 itemprop="name">{{ item.question }}</h5>
+        <p itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <span itemprop="text">{{ item.answer | safe }}</span>
+        </p>
     </div>
     {% endfor %}
 </div>

@@ -12,13 +12,24 @@
     <meta property="og:url" content="https://barassistant.app">
     <meta property="og:type" content="website">
     <meta property="og:description" content="{{ description }}">
-    <meta property="og:image" content="{{ ogImage or '/public/img/ogimage.png' }}">
+    <meta property="og:image" content="{{ ogImage or '/public/img/ogimage.webp' }}">
     {% for link in page.url | locale_links %}
     <link rel="alternate" hreflang="{{ link.lang }}" href="https://barassistant.app{{ link.url }}">
     {% endfor %}
     {% if analytics %}
     <script defer data-domain="barassistant.app" src="https://plausible.io/js/script.js"></script>
     {% endif %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "https://barassistant.app",
+      "logo": "https://barassistant.app/img/logo.png",
+      "name": "Bar Assistant",
+      "description": "All-in-one solution for managing your cocktail bar",
+      "email": "info@barassistant.app"
+    }
+    </script>
 </head>
 
 <body>
