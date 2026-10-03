@@ -7,7 +7,8 @@
     "source": "Source",
     "documentation": "Documentation",
     "open_app": "Open app",
-    "home": "Home"
+    "home": "Home",
+    "for_venues": "For venues"
   },
   "hero": {
     "title": "All-in-one solution for managing",
@@ -29,6 +30,7 @@
   "footer": {
     "made_by": "Made by",
     "contact": "Contact us",
+    "for_venues": "For venues",
     "privacy": "Privacy policy",
     "terms": "Terms of service"
   },

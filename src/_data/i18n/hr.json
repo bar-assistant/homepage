@@ -7,7 +7,8 @@
     "source": "Izvorni kod",
     "documentation": "Dokumentacija",
     "open_app": "Idi na aplikaciju",
-    "home": "Početna"
+    "home": "Početna",
+    "for_venues": "Za ugostitelje"
   },
   "hero": {
     "title": "Sveobuhvatno rješenje za upravljanje",
@@ -29,6 +30,7 @@
   "footer": {
     "made_by": "Izradio",
     "contact": "Kontaktirajte nas",
+    "for_venues": "Za ugostitelje",
     "privacy": "Politika privatnosti",
     "terms": "Uvjeti korištenja"
   },

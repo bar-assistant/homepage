@@ -1,0 +1,225 @@
+{% macro venueIcon(name) %}{% if name == 'recipes' %}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M200,72l-72,72L56,72Z" class="accent"></path><path d="M237.66,45.66A8,8,0,0,0,232,32H24a8,8,0,0,0-5.66,13.66L120,147.31V208H88a8,8,0,0,0,0,16h80a8,8,0,0,0,0-16H136V147.31ZM75.31,80H180.69L128,132.69ZM212.69,48l-16,16H59.31l-16-16Z"></path></svg>
+{% elif name == 'cost' %}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M176,64v48H80V64Z" class="accent"></path><path d="M80,120h96a8,8,0,0,0,8-8V64a8,8,0,0,0-8-8H80a8,8,0,0,0-8,8v48A8,8,0,0,0,80,120Zm8-48h80v32H88ZM200,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V40A16,16,0,0,0,200,24Zm0,192H56V40H200ZM100,148a12,12,0,1,1-12-12A12,12,0,0,1,100,148Zm40,0a12,12,0,1,1-12-12A12,12,0,0,1,140,148Zm40,0a12,12,0,1,1-12-12A12,12,0,0,1,180,148Zm-80,40a12,12,0,1,1-12-12A12,12,0,0,1,100,188Zm40,0a12,12,0,1,1-12-12A12,12,0,0,1,140,188Zm40,0a12,12,0,1,1-12-12A12,12,0,0,1,180,188Z"></path></svg>
+{% elif name == 'menu' %}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path class="accent" d="M232,56V200H160a32,32,0,0,0-32,32V88a32,32,0,0,1,32-32Z"></path><path d="M232,48H160a40,40,0,0,0-32,16A40,40,0,0,0,96,48H24a8,8,0,0,0-8,8V200a8,8,0,0,0,8,8H96a24,24,0,0,1,24,24,8,8,0,0,0,16,0,24,24,0,0,1,24-24h72a8,8,0,0,0,8-8V56A8,8,0,0,0,232,48ZM96,192H32V64H96a24,24,0,0,1,24,24V200A39.81,39.81,0,0,0,96,192Zm128,0H160a39.81,39.81,0,0,0-24,8V88a24,24,0,0,1,24-24h64ZM160,88h40a8,8,0,0,1,0,16H160a8,8,0,0,1,0-16Zm48,40a8,8,0,0,1-8,8H160a8,8,0,0,1,0-16h40A8,8,0,0,1,208,128Zm0,32a8,8,0,0,1-8,8H160a8,8,0,0,1,0-16h40A8,8,0,0,1,208,160Z"></path></svg>
+{% elif name == 'stock' %}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M160,160l-56,56L40,152,96,96Z" class="accent"></path><path d="M245.66,42.34l-32-32a8,8,0,0,0-11.32,11.32l1.48,1.47L148.65,64.51l-38.22,7.65a8.05,8.05,0,0,0-4.09,2.18L23,157.66a24,24,0,0,0,0,33.94L64.4,233a24,24,0,0,0,33.94,0l83.32-83.31a8,8,0,0,0,2.18-4.09l7.65-38.22,41.38-55.17,1.47,1.48a8,8,0,0,0,11.32-11.32ZM104,204.69,51.31,152,96,107.31,148.69,160ZM81.37,224a7.94,7.94,0,0,1-5.65-2.34L34.34,180.28a8,8,0,0,1,0-11.31L40,163.31,92.69,216,87,221.66A8,8,0,0,1,81.37,224ZM177.6,99.2a7.92,7.92,0,0,0-1.44,3.23l-7.53,37.63L160,148.69,107.31,96l8.63-8.63,37.63-7.53a7.92,7.92,0,0,0,3.23-1.44l58.45-43.84,6.19,6.19Z"></path></svg>
+{% elif name == 'multi' %}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M216,115.54V216H152V160a8,8,0,0,0-8-8H112a8,8,0,0,0-8,8v56H40V115.54a8,8,0,0,1,2.62-5.92l80-75.54a8,8,0,0,1,10.77,0l80,75.54A8,8,0,0,1,216,115.54Z" class="accent"></path><path d="M240,208H224V115.55a16,16,0,0,0-5.17-11.78l-80-75.48a1.14,1.14,0,0,1-.11-.11,16,16,0,0,0-21.53,0l-.11.11L37.17,103.77A16,16,0,0,0,32,115.55V208H16a8,8,0,0,0,0,16H240a8,8,0,0,0,0-16ZM48,115.55l.11-.1L128,40l79.9,75.43.11.1V208H160V160a16,16,0,0,0-16-16H112a16,16,0,0,0-16,16v48H48ZM144,208H112V160h32Z"></path></svg>
+{% elif name == 'open' %}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect fill="none"></rect><path d="M184,197.67A72,72,0,0,1,64,144V112A72,72,0,0,1,184,58.33Z" class="accent"></path><line x1="40" y1="112" x2="136" y2="112" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><line x1="40" y1="144" x2="120" y2="144" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><path d="M184,197.67A72,72,0,0,1,64,144V112A72,72,0,0,1,184,58.33" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path></svg>
+{% elif name == 'bottle' %}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"><path fill="none" d="M92,56V36a12,12,0,0,1,12-12h48a12,12,0,0,1,12,12V56"></path><path fill="none" d="M104,64V80c0,16-16,20-28,30-10,8-12,20-12,34v72a16,16,0,0,0,16,16h96a16,16,0,0,0,16-16v-72c0-14-2-26-12-34-12-10-28-14-28-30V64Z"></path><line fill="none" x1="80" y1="184" x2="176" y2="184"></line></svg>
+{% elif name == 'settings' %}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160Zm109.94-52.79a8,8,0,0,0-3.89-5.4l-29.83-17-.12-33.62a8,8,0,0,0-2.83-6.08,111.91,111.91,0,0,0-36.72-20.67,8,8,0,0,0-6.46.59L128,41.85,97.88,25a8,8,0,0,0-6.47-.6A112.1,112.1,0,0,0,54.73,45.15a8,8,0,0,0-2.83,6.07l-.15,33.65-29.83,17a8,8,0,0,0-3.89,5.4,106.47,106.47,0,0,0,0,41.56,8,8,0,0,0,3.89,5.4l29.83,17,.12,33.62a8,8,0,0,0,2.83,6.08,111.91,111.91,0,0,0,36.72,20.67,8,8,0,0,0,6.46-.59L128,214.15,158.12,231a7.91,7.91,0,0,0,3.9,1,8.09,8.09,0,0,0,2.57-.42,112.1,112.1,0,0,0,36.68-20.73,8,8,0,0,0,2.83-6.07l.15-33.65,29.83-17a8,8,0,0,0,3.89-5.4A106.47,106.47,0,0,0,237.94,107.21Zm-15,34.91-28.57,16.25a8,8,0,0,0-3,3c-.58,1-1.19,2.06-1.81,3.06a7.94,7.94,0,0,0-1.22,4.21l-.15,32.25a95.89,95.89,0,0,1-25.37,14.3L134,199.13a8,8,0,0,0-3.91-1h-.19c-1.21,0-2.43,0-3.64,0a8.08,8.08,0,0,0-4.1,1l-28.84,16.1A96,96,0,0,1,67.88,201l-.11-32.2a8,8,0,0,0-1.22-4.22c-.62-1-1.23-2-1.8-3.06a8.09,8.09,0,0,0-3-3.06l-28.6-16.29a90.49,90.49,0,0,1,0-28.26L61.67,97.63a8,8,0,0,0,3-3c.58-1,1.19-2.06,1.81-3.06a7.94,7.94,0,0,0,1.22-4.21l.15-32.25a95.89,95.89,0,0,1,25.37-14.3L122,56.87a8,8,0,0,0,4.1,1c1.21,0,2.43,0,3.64,0a8.08,8.08,0,0,0,4.1-1l28.84-16.1A96,96,0,0,1,188.12,55l.11,32.2a8,8,0,0,0,1.22,4.22c.62,1,1.23,2,1.8,3.06a8.09,8.09,0,0,0,3,3.06l28.6,16.29A90.49,90.49,0,0,1,222.9,142.12Z"></path></svg>
+{% elif name == 'chart' %}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M224,200h-8V40a8,8,0,0,0-8-8H152a8,8,0,0,0-8,8V80H96a8,8,0,0,0-8,8v40H48a8,8,0,0,0-8,8v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16ZM160,48h40V200H160ZM104,96h40V200H104ZM56,144H88v56H56Z"></path></svg>
+{% elif name == 'clock' %}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm64-88a8,8,0,0,1-8,8H128a8,8,0,0,1-8-8V72a8,8,0,0,1,16,0v48h48A8,8,0,0,1,192,128Z"></path></svg>
+{% elif name == 'trend' %}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M240,56v64a8,8,0,0,1-16,0V75.31l-82.34,82.35a8,8,0,0,1-11.32,0L96,123.31,29.66,189.66a8,8,0,0,1-11.32-11.32l72-72a8,8,0,0,1,11.32,0L136,140.69,212.69,64H168a8,8,0,0,1,0-16h64A8,8,0,0,1,240,56Z"></path></svg>
+{% elif name == 'heart' %}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M178,40c-20.65,0-38.73,8.88-50,23.89C116.73,48.88,98.65,40,78,40a62.07,62.07,0,0,0-62,62c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,228.66,240,172,240,102A62.07,62.07,0,0,0,178,40ZM128,214.8C109.74,204.16,32,155.69,32,102A46.06,46.06,0,0,1,78,56c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,155.61,146.24,204.15,128,214.8Z"></path></svg>
+{% endif %}{% endmacro %}
+
+<div class="hero hero--venues">
+    <div class="venues-hero__content">
+        <p class="venues-hero__kicker">{{ venues[lang].kicker }}</p>
+        <h2>{{ venues[lang].heroTitle }} <span>{{ venues[lang].heroHighlight }}</span></h2>
+        <p>{{ venues[lang].heroDescription }}</p>
+        <div class="hero-actions">
+            <a href="{{ venues[lang].ctaPrimaryHref }}" class="button button--filled">{{ venues[lang].ctaPrimary }}</a>
+            <a href="{{ venues[lang].ctaSecondaryHref }}" target="_blank" rel="noopener" class="button">{{ venues[lang].ctaSecondary }}</a>
+        </div>
+        <p class="venues-hero__note">{{ venues[lang].ctaNote }}</p>
+    </div>
+    <div class="venues-hero__media">
+        <img src="/public/img/hero-venue.jpg" alt="Cocktail menu served at a hotel or beach bar">
+    </div>
+</div>
+
+<div class="in-page-title">
+    <div class="in-page-title__content">
+        <h3>{{ venues[lang].stepsTitle }}</h3>
+        <p>{{ venues[lang].stepsSubtitle }}</p>
+    </div>
+</div>
+<div class="venues-steps">
+    {% for step in venues[lang].steps %}
+    <div class="venues-step">
+        <span class="venues-step__num">{{ loop.index }}</span>
+        <h4>{{ step.title }}</h4>
+        <p>{{ step.description }}</p>
+    </div>
+    {% endfor %}
+</div>
+
+<div class="in-page-title">
+    <div class="in-page-title__content">
+        <h3>{{ venues[lang].audienceTitle }}</h3>
+        <p>{{ venues[lang].audienceSubtitle }}</p>
+    </div>
+</div>
+<div class="venues-segments">
+    {% for segment in venues[lang].segments %}
+    <div class="feature">
+        <div class="feature__text">
+            <h3>{{ segment.title }}</h3>
+            <p class="venues-segment__desc">{{ segment.description }} ⚠️</p>
+            <ul>
+                {% for bullet in segment.bullets %}
+                <li>{{ bullet }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<div class="in-page-title">
+    <div class="in-page-title__content">
+        <h3>{{ venues[lang].benefitsTitle }}</h3>
+        <p>{{ venues[lang].benefitsSubtitle }}</p>
+    </div>
+</div>
+<div class="features">
+    {% for benefit in venues[lang].benefits %}
+    <div class="feature">
+        <div class="feature__icon">
+            {{ venueIcon(benefit.icon) }}
+        </div>
+        <div class="feature__text">
+            <h3>{{ benefit.title }}</h3>
+            <p>{{ benefit.description }}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<div class="venues-cost" id="pricing">
+    <div class="venues-cost__intro">
+        <p class="venues-cost__kicker">{{ venues[lang].costKicker }}</p>
+        <h3>{{ venues[lang].costTitle }} <span>{{ venues[lang].costHighlight }}</span></h3>
+        <p class="venues-cost__lead">{{ venues[lang].costResult }}</p>
+        <ul class="venues-cost__points">
+            {% for point in venues[lang].costPoints %}
+            <li>
+                <div class="venues-cost__point-text">
+                    <strong>{{ point.title }}</strong>
+                    <p>{{ point.description }}</p>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="venues-cost__visual">
+        <img class="venues-cost__photo" src="/public/img/venue-bar.jpg" alt="" loading="lazy">
+        <div class="venues-cost__card">
+            <p class="venues-cost__card-kicker">{{ venues[lang].costCardKicker }}</p>
+            <h4>{{ venues[lang].costCardTitle }}</h4>
+            <h5>{{ venues[lang].costRecipeName }}</h5>
+            <table class="venues-cost__table">
+                <thead>
+                    <tr>
+                        <th>{{ venues[lang].costHeadLeft }}</th>
+                        <th>{{ venues[lang].costHeadRight }}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in venues[lang].costRows %}
+                    <tr>
+                        <td>{{ row.name }}</td>
+                        <td class="venues-cost__amount">{{ row.amount }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>{{ venues[lang].costTotalName }}</th>
+                        <th class="venues-cost__amount">{{ venues[lang].costTotalAmount }}</th>
+                    </tr>
+                </tfoot>
+            </table>
+            <p class="venues-cost__suggest-title">{{ venues[lang].priceSuggestTitle }}</p>
+            <div class="venues-cost__prices">
+                {% for row in venues[lang].priceSuggestRows %}
+                <div class="venues-cost__price">
+                    <span>{{ row.name }}</span>
+                    <strong>{{ row.amount }}</strong>
+                </div>
+                {% endfor %}
+            </div>
+            <p class="venues-cost__note">{{ venues[lang].costNote }}</p>
+        </div>
+    </div>
+</div>
+
+<div class="in-page-title" id="plans">
+    <div class="in-page-title__content">
+        <h3>{{ venues[lang].planTitle }}</h3>
+        <p>{{ venues[lang].planSubtitle }}</p>
+    </div>
+</div>
+<div class="venues-plans">
+    <div class="venues-plan venues-plan--free">
+        <h3>{{ venues[lang].planFree.name }}</h3>
+        <div class="venues-plan__price">
+            <h4>{{ venues[lang].planFree.price }}</h4>
+            <small>{{ venues[lang].planFree.billing }}</small>
+        </div>
+        <p class="venues-plan__tagline">{{ venues[lang].planFree.tagline }}</p>
+        <ul>
+            {% for feature in venues[lang].planFree.bullets %}
+            <li>{{ feature }}</li>
+            {% endfor %}
+        </ul>
+        <div class="venues-plan__action">
+            <a href="{{ venues[lang].planFree.ctaHref }}" class="button">{{ venues[lang].planFree.ctaText }}</a>
+        </div>
+    </div>
+    <div class="venues-plan venues-plan--paid">
+        <h3>{{ venues[lang].planPaid.name }}</h3>
+        <div class="venues-plan__price">
+            <h4>{{ venues[lang].planPaid.price }}</h4>
+            <small>{{ venues[lang].planPaid.billing }}</small>
+        </div>
+        <p class="venues-plan__tagline">{{ venues[lang].planPaid.tagline }}</p>
+        <ul>
+            {% for feature in venues[lang].planPaid.bullets %}
+            <li>{{ feature }}</li>
+            {% endfor %}
+        </ul>
+        <div class="venues-plan__action">
+            <a href="{{ venues[lang].planPaid.ctaHref }}" class="button button--filled">{{ venues[lang].planPaid.ctaText }}</a>
+        </div>
+    </div>
+</div>
+<p class="venues-plans__invoice">{{ venues[lang].invoiceHtml | safe }}</p>
+
+<div class="in-page-title">
+    <div class="in-page-title__content">
+        <h3>{{ venues[lang].faqTitle }}</h3>
+        <p>{{ venues[lang].faqSubtitle }}</p>
+    </div>
+</div>
+<div class="page-faq" itemscope itemtype="https://schema.org/FAQPage">
+    {% for item in venues[lang].faq %}
+    <div class="faq__question" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <h5 itemprop="name">{{ item.q }}</h5>
+        <p itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <span itemprop="text">{{ item.a | safe }}</span>
+        </p>
+    </div>
+    {% endfor %}
+</div>
+
+<div class="venues-final">
+    <h3>{{ venues[lang].finalTitle }}</h3>
+    <p>{{ venues[lang].finalText }}</p>
+    <div class="hero-actions">
+        <a href="{{ venues[lang].finalPrimaryHref }}" class="button button--filled">{{ venues[lang].finalPrimary }}</a>
+        <a href="{{ venues[lang].finalSecondaryHref }}" class="button">{{ venues[lang].finalSecondary }}</a>
+    </div>
+</div>

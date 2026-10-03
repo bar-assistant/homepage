@@ -1,0 +1,301 @@
+{
+  "en": {
+    "kicker": "For hotels · beach bars",
+    "heroTitle": "Serve a cocktail menu that actually",
+    "heroHighlight": "makes money",
+    "heroDescription": "Bar Assistant helps coastal venues build a proper cocktail offering 500+ tried recipes, exact pour-cost pricing and a live menu your guests can scan. Free for one bar. That's enough to run yours.",
+    "ctaPrimary": "Start for free",
+    "ctaPrimaryHref": "https://my.barassistant.app/register",
+    "ctaSecondary": "Explore the demo",
+    "ctaSecondaryHref": "https://demo.barassistant.app",
+    "ctaNote": "The free plan covers one bar and over 500 cocktails. No credit card needed. Upgrade only when you add more bars or staff accounts.",
+    "stepsTitle": "A better cocktail offering in three steps",
+    "stepsSubtitle": "From “we should offer cocktails” to a finished menu, usually in one afternoon.",
+    "steps": [
+      { "title": "Pick your recipes", "description": "Start from a library of 500+ classic and modern cocktails with exact specs, or build your own. Add images, notes and batch sizes." },
+      { "title": "Set honest prices", "description": "Enter your bottle prices once and Bar Assistant calculates the pour cost of every drink - then suggests menu prices at your target margin." },
+      { "title": "Put it in front of guests", "description": "Publish a clean drink menu on your own URL. Guests scan a QR code, and you update prices live or export for print." }
+    ],
+    "audienceTitle": "Built for venues like yours",
+    "audienceSubtitle": "One tool that fits the way small seaside places actually run.",
+    "segments": [
+      {
+        "title": "Beach bars & small venues",
+        "description": "Owner-run, seasonal staff, high turnover.",
+        "bullets": [
+          "Exact specs so every pour - and every staff member - is the same",
+          "Pour-cost pricing so you know what each drink earns",
+          "A QR menu guests open on the beach, with no reprints",
+          "Ingredient quantity calculator for batches and events"
+        ]
+      },
+      {
+        "title": "Hotels & resorts",
+        "description": "Several outlets, a new team every season.",
+        "bullets": [
+          "One account, many bars: lobby, pool, beach",
+          "Staff accounts with roles",
+          "Share recipes across your team",
+          "Menu prices per outlet and per currency"
+        ]
+      }
+    ],
+    "benefitsTitle": "Why bar teams switch to Bar Assistant",
+    "benefitsSubtitle": "The bar-management features small venues actually use.",
+    "benefits": [
+      { "icon": "recipes", "title": "500+ recipes, ready to spec", "description": "Classic and modern serves with exact quantities. Scale any recipe up for a pitcher, an event or a busy shift." },
+      { "icon": "cost", "title": "Pour cost on every serve", "description": "Price your bottles once. Bar Assistant estimates the cost of every drink and auto-suggests menu prices at your chosen margin." },
+      { "icon": "menu", "title": "A live menu with its own URL", "description": "Publish the menu in one click, a QR code for guests, CSV or print for the pass, and updates whenever prices change." },
+      { "icon": "stock", "title": "Quantity calculator", "description": "Create custom recipe collection and use built-in calculator to calculate ingredient quantities for batches and events." },
+      { "icon": "multi", "title": "Multi-bar & staff accounts", "description": "Give each outlet its own bar and each team member the right access. Share recipes within your group." },
+      { "icon": "open", "title": "Yours, portable & private", "description": "Export anything, any time. Self-host free on your own hardware, or rely on EU-hosted, GDPR-friendly cloud." }
+    ],
+    "costKicker": "Smarter pricing",
+    "costTitle": "Know the pour cost of",
+    "costHighlight": "every serve.",
+    "costResult": "Price your bottles once and Bar Assistant works out every cocktail, then applies your price category or target margin across the whole menu. No spreadsheets.",
+    "costPoints": [
+      { "icon": "bottle", "title": "Set your bottle prices once", "description": "Keep your inventory up to date and we do the maths for you." },
+      { "icon": "settings", "title": "Automatic menu pricing", "description": "Instantly calculate pour costs and suggested menu prices." },
+      { "icon": "chart", "title": "Consistent, higher margins", "description": "Apply your price category or target margin across the whole menu." }
+    ],
+    "costCtaText": "See how it works",
+    "costCtaHref": "https://demo.barassistant.app",
+    "costCardKicker": "A quick example",
+    "costCardTitle": "How automatic menu pricing works.",
+    "costRecipeName": "Aperol Spritz",
+    "costHeadLeft": "Ingredient",
+    "costHeadRight": "Cost per serve",
+    "costRows": [
+      { "name": "Prosecco", "amount": "€0.90" },
+      { "name": "Aperol", "amount": "€0.80" },
+      { "name": "Soda water", "amount": "€0.10" },
+      { "name": "Citrus & garnish", "amount": "€0.10" }
+    ],
+    "costTotalName": "Total pour cost",
+    "costTotalAmount": "€1.90",
+    "priceSuggestTitle": "Suggested menu prices",
+    "priceSuggestRows": [
+      { "name": "At a 25% pour cost", "amount": "€7.60" },
+      { "name": "At a 20% pour cost", "amount": "€9.50" }
+    ],
+    "costNote": "Example only, your numbers depend on local bottle prices and glass size.",
+    "planTitle": "Free while you start. €25 a month while you grow.",
+    "planSubtitle": "The free plan already runs a single venue. Move to Mixologist when you add outlets or a team.",
+    "planFree": {
+      "name": "Bartender",
+      "price": "Free",
+      "billing": "no card required",
+      "tagline": "One bar · 750 cocktails · a single venue",
+      "bullets": [
+        "One bar - perfect for a beach bar or small venue",
+        "Up to 750 cocktails: pick from 500+ or add your own",
+        "Pour-cost pricing, stock & a shopping list",
+        "A public menu on your own URL"
+      ],
+      "ctaText": "Create your free bar",
+      "ctaHref": "https://my.barassistant.app/register"
+    },
+    "planPaid": {
+      "name": "Mixologist",
+      "price": "€25",
+      "billing": "per month · save 15% billed annually",
+      "tagline": "Up to 10 bars · staff accounts · shared recipes",
+      "bullets": [
+        "Up to 10 bars - one account for your group, one bar per outlet",
+        "Staff accounts with roles; share recipes across your team",
+        "Unlimited price categories, collections & images",
+        "Automatic menu-price suggestions & bulk ingredient import"
+      ],
+      "ctaText": "Create an account",
+      "ctaHref": "https://my.barassistant.app/register"
+    },
+    "invoiceHtml": "Prefer an invoice? Email <a href=\"mailto:info@barassistant.app\">info@barassistant.app</a> - we bill businesses.",
+    "faqTitle": "Venue questions",
+    "faqSubtitle": "Everything to know before you start.",
+    "faq": [
+      {
+        "q": "Can we really use Bar Assistant in a commercial bar?",
+        "a": "Yes. Both the free “Bartender” plan and the paid “Mixologist” plan are fine for venues - Bar Assistant never restricts commercial use, which is why bars, beach clubs and hotels use it."
+      },
+      {
+        "q": "We're a small beach bar, is the free plan enough?",
+        "a": "For most single-outlet venues, yes. The free plan gives you one bar, up to 750 cocktails, ingredient stock, pour-cost pricing and a public menu. Move to “Mixologist” (up to 10 bars, staff accounts) when you open a second outlet or hire a team."
+      },
+      {
+        "q": "Our staff changes every summer, won't recipes get lost?",
+        "a": "Recipes live in the app, not in someone's head. Every team member sees the same exact spec, pour by pour. Give bartenders access, keep settings with managers, and you serve the same drink all season."
+      },
+      {
+        "q": "Can guests actually see the menu?",
+        "a": "Yes, publish the menu to a public URL in one click and put the URL (or a QR code) on a stand or card. When prices or drinks change, update once and guests see the new menu instantly. You can also export and print."
+      },
+      {
+        "q": "What about our data and GDPR?",
+        "a": "Bar Assistant is developed in EU. We store the minimum personal data needed and host in the EU. The product is open source (MIT) - you can self-host on your own hardware and export your data any time."
+      },
+      {
+        "q": "Can we pay by invoice?",
+        "a": "Yes, email <a href=\"mailto:info@barassistant.app\">info@barassistant.app</a> and we'll set up invoice billing for your business."
+      }
+    ],
+    "finalTitle": "Ready to pour a better season?",
+    "finalText": "Build your first menu on the free plan today - within an hour you'll know whether Bar Assistant fits your bar. Start before the season and open ready.",
+    "finalPrimary": "Create your free bar",
+    "finalPrimaryHref": "https://my.barassistant.app/register",
+    "finalSecondary": "Email info@barassistant.app",
+    "finalSecondaryHref": "mailto:info@barassistant.app"
+  },
+  "hr": {
+    "kicker": "Za hotele i beach barove",
+    "heroTitle": "Koktel meni koji doista",
+    "heroHighlight": "zarađuje",
+    "heroDescription": "Bar Assistant pomaže ugostiteljima izgraditi pravi koktel meni. Preko 500 provjerenih recepata, precizan izračun cijene i meni koji je uvijek dostupan gostima. Besplatno za jedan bar. Dovoljno za Vaš.",
+    "ctaPrimary": "Izradite meni - besplatno",
+    "ctaPrimaryHref": "https://my.barassistant.app/register",
+    "ctaSecondary": "Pogledajte demo",
+    "ctaSecondaryHref": "https://demo.barassistant.app",
+    "ctaNote": "Besplatni plan pokriva jedan bar i 500+ koktela. Bez kreditne kartice. Nadogradite tek kada dodate prodajna mjesta ili više korisnika.",
+    "stepsTitle": "Bolja koktel ponuda u tri koraka",
+    "stepsSubtitle": "Od “trebali bismo ponuditi koktele” do kompletnog menija s cijenama koji je gotov za jedno poslijepodne.",
+    "steps": [
+      { "title": "Odaberite recepte", "description": "Krenite iz biblioteke od 500+ klasičnih i modernih koktela s točnim recepturama ili izradite vlastite. Dodajte slike, bilješke i kolekcije." },
+      { "title": "Postavite poštene cijene", "description": "Jednom unesite cijene boca i Bar Assistant će izračunati cijenu svakog pića prema vašoj ciljanoj marži." },
+      { "title": "Stavite meni pred goste", "description": "Jednom objavljeni meni je odmah spreman za goste. Mogućnost prikaza skeniranjem QR koda, a vi cijene ažurirate uživo ili izvezete za tisak." }
+    ],
+    "audienceTitle": "Napravljen za Vaše potrebe",
+    "audienceSubtitle": "Jedan alat koji odgovara načinu na koji mali primorski objekti doista rade.",
+    "segments": [
+      {
+        "title": "Beach barovi i manji objekti",
+        "description": "Vlasnički vođeni, sezonsko osoblje, velika fluktuacija.",
+        "bullets": [
+          "Točne recepture: svaka porcija i svaki zaposlenik jednaki",
+          "Cijene temeljene na trošku - znate koliko svako piće donosi",
+          "QR meni koji gosti otvaraju na plaži, bez ponovnog tiska",
+          "Kalkulator potrebnih sastojaka za veće narudžbe i posebne događaje"
+        ]
+      },
+      {
+        "title": "Hoteli i resorti",
+        "description": "Više prodajnih mjesta i nova ekipa svake sezone.",
+        "bullets": [
+          "Jedan račun, više barova - lobby, bazen, plaža",
+          "Računi osoblja s ulogama",
+          "Dijeljenje recepata unutar tima",
+          "Cijene menija po prodajnom mjestu i po valuti"
+        ]
+      }
+    ],
+    "benefitsTitle": "Zašto barovi prelaze na Bar Assistant",
+    "benefitsSubtitle": "Značajke za upravljanje barom koje mali objekti zaista koriste.",
+    "benefits": [
+      { "icon": "recipes", "title": "500+ recepata spremnih za specifikaciju", "description": "Klasična i moderna pića s točnim količinama. Svaki recept možete skalirati za vrč, događaj ili gužvu u smjeni." },
+      { "icon": "cost", "title": "Trošak za svako piće", "description": "Cijene boca unesete jednom - Bar Assistant izračuna trošak svakog pića i automatski predloži cijene menija prema vašoj marži." },
+      { "icon": "menu", "title": "Živi meni s vlastitom adresom", "description": "Objavite meni jednim klikom - QR kod za goste, izvoz u CSV ili tisak za šank te ažuriranje cijena u trenutku." },
+      { "icon": "stock", "title": "Kalkulator potrebnih sastojaka", "description": "Izradite vlastitu kolekciju recepata i koristite ugrađeni kalkulator za izračun potrebnih količina sastojaka za veće narudžbe i posebne događaje." },
+      { "icon": "multi", "title": "Više prodajnih mjesta i uloge osoblja", "description": "Svaki objekt ima vlastiti bar, a svaki član tima odgovarajući pristup. Dijelite recepte unutar grupe. (Mixologist plan.)" },
+      { "icon": "open", "title": "Vaše, prenosivo i privatno", "description": "Podatke izvezite bilo kada. Hostajte besplatno na vlastitom hardveru ili koristite EU cloud usklađen s GDPR-om." }
+    ],
+    "costKicker": "Pametnije cijene",
+    "costTitle": "Znajte cijenu",
+    "costHighlight": "svakog pića.",
+    "costResult": "Cijene boca unesete jednom, a Bar Assistant izračuna svaki koktel te primijeni vašu cjenovnu kategoriju ili ciljanu maržu na cijeli meni. Bez tablica i proračunskih listova.",
+    "costPoints": [
+      { "icon": "bottle", "title": "Cijene boca unesite jednom", "description": "Održavajte zalihe ažurnima, a mi radimo izračun." },
+      { "icon": "settings", "title": "Automatsko oblikovanje cijena", "description": "Trenutačno izračunajte trošak pića i predložene cijene menija." },
+      { "icon": "chart", "title": "Ujednačene, veće marže", "description": "Primijenite cjenovnu kategoriju ili ciljanu maržu na cijeli meni." }
+    ],
+    "costCtaText": "Pogledajte kako radi",
+    "costCtaHref": "https://demo.barassistant.app",
+    "costCardKicker": "Kratki primjer",
+    "costCardTitle": "Kako funkcionira automatsko oblikovanje cijena.",
+    "costRecipeName": "Aperol Spritz",
+    "costHeadLeft": "Sastojak",
+    "costHeadRight": "Trošak po porciji",
+    "costRows": [
+      { "name": "Prosecco", "amount": "0,90 €" },
+      { "name": "Aperol", "amount": "0,80 €" },
+      { "name": "Gazirana voda", "amount": "0,10 €" },
+      { "name": "Agrumi i ukras", "amount": "0,10 €" }
+    ],
+    "costTotalName": "Ukupni trošak pića",
+    "costTotalAmount": "1,90 €",
+    "priceSuggestTitle": "Predložene cijene menija",
+    "priceSuggestRows": [
+      { "name": "Uz 25% udjela troška", "amount": "7,60 €" },
+      { "name": "Uz 20% udjela troška", "amount": "9,50 €" }
+    ],
+    "costNote": "Samo primjer - brojke ovise o vašim cijenama boca i veličini čaše.",
+    "costStats": [
+      { "icon": "clock", "title": "Uštedite sate svaki tjedan", "description": "Bez ručnog računanja i pogrešaka u tablicama." },
+      { "icon": "trend", "title": "Cijene s povjerenjem", "description": "Zaštitite marže kada se troškovi promijene." },
+      { "icon": "heart", "title": "Zadovoljniji gosti, unosniji meni", "description": "Odlična pića, prave cijene, svaki put." }
+    ],
+    "planTitle": "Besplatno dok krećete. 25 € mjesečno dok rastete.",
+    "planSubtitle": "Besplatni plan već vodi jedan objekt. Pređite na Mixologist kada dodate prodajna mjesta ili tim.",
+    "planFree": {
+      "name": "Bartender",
+      "price": "Besplatno",
+      "billing": "bez kartice",
+      "tagline": "Jedan bar · 750 koktela · jedan objekt",
+      "bullets": [
+        "Jedan bar - savršeno za plažni bar ili manji objekt",
+        "Do 750 koktela: birajte između 500+ ili dodajte vlastite",
+        "Cijene prema trošku, zalihe i popis za kupnju",
+        "Javni meni na vlastitoj adresi"
+      ],
+      "ctaText": "Kreirajte svoj besplatni bar",
+      "ctaHref": "https://my.barassistant.app/register"
+    },
+    "planPaid": {
+      "name": "Mixologist",
+      "price": "25 €",
+      "billing": "mjesečno · 15% popusta na godišnju pretplatu",
+      "tagline": "Do 10 barova · računi osoblja · dijeljeni recepti",
+      "bullets": [
+        "Do 10 barova - jedan račun za grupu, jedan bar po prodajnom mjestu",
+        "Računi osoblja s ulogama; dijeljenje recepata unutar tima",
+        "Neograničene cjenovne kategorije, kolekcije i slike",
+        "Automatski prijedlozi cijena i masovni uvoz sastojaka"
+      ],
+      "ctaText": "Kreirajte račun",
+      "ctaHref": "https://my.barassistant.app/register"
+    },
+    "invoiceHtml": "Radije računom? Pišite na <a href=\"mailto:info@barassistant.app\">info@barassistant.app</a> - naplaćujemo poduzećima.",
+    "faqTitle": "Pitanja ugostitelja",
+    "faqSubtitle": "Sve što trebate znati prije nego krenete.",
+    "faq": [
+      {
+        "q": "Smijemo li doista koristiti Bar Assistant u komercijalnom baru?",
+        "a": "Da. I besplatni “Bartender” plan i plaćeni “Mixologist” plan prikladni su za Vaše objekte - Bar Assistant nikada ne ograničava komercijalnu upotrebu, zato ga koriste barovi, plažni klubovi i hoteli."
+      },
+      {
+        "q": "Mali smo plažni bar - je li besplatni plan dovoljan?",
+        "a": "Za većinu objekata s jednim prodajnim mjestom - da. Besplatni plan nudi jedan bar, do 750 koktela, zalihe sastojaka, cijene prema trošku i javni meni. Pređite na “Mixologist” (do 10 barova, računi osoblja) kada otvorite drugo prodajno mjesto ili zaposlite tim."
+      },
+      {
+        "q": "Osoblje nam se mijenja svakog ljeta - neće li se recepti izgubiti?",
+        "a": "Recepti žive u aplikaciji, ne u nečijoj glavi. Svi članovi tima vide istu točnu recepturu. Barmenima dajte pristup, postavke zadržite kod menadžera i poslužit ćete isto piće cijelu sezonu."
+      },
+      {
+        "q": "Mogu li gosti zaista vidjeti meni?",
+        "a": "Da - meni jednim klikom objavite na javnoj adresi i tu adresu (ili QR kod) stavite na stalak ili karticu. Kada se cijene ili pića promijene, ažurirate jednom i gosti odmah vide novi meni. Također ga možete izvesti i ispisati."
+      },
+      {
+        "q": "Što je s našim podacima i GDPR-om?",
+        "a": "Bar Assistant razvija se u Hrvatskoj (EU). Čuvamo minimum potrebnih osobnih podataka i hosting je u EU. Proizvod je otvorenog koda (MIT) - možete ga samostalno hostati na vlastitom hardveru i podatke izvesti u svakom trenutku."
+      },
+      {
+        "q": "Možemo li plaćati računom?",
+        "a": "Da - pišite na <a href=\"mailto:info@barassistant.app\">info@barassistant.app</a> i dogovorit ćemo naplatu računom za vašu tvrtku."
+      }
+    ],
+    "finalTitle": "Spremni za bolju sezonu?",
+    "finalText": "Postavite svoj prvi meni na besplatnom planu već danas - u roku od sat vremena znat ćete odgovara li Bar Assistant vašem baru. Krenite prije sezone i otvorite spremni.",
+    "finalPrimary": "Kreirajte svoj besplatni bar",
+    "finalPrimaryHref": "https://my.barassistant.app/register",
+    "finalSecondary": "Pišite na info@barassistant.app",
+    "finalSecondaryHref": "mailto:info@barassistant.app"
+  }
+}
